@@ -61,3 +61,45 @@ A pixel-perfect, responsive onboarding flow for Hotspot Hosts with API integrati
 ---
 
 ## Project Structure
+
+vamsi_assignment/
+
+├── lib/
+
+│   ├── main.dart
+
+│   ├── model/
+
+│   │   └── experince.dart
+
+│   ├── services/
+
+│   │   └── api_service.dart
+
+│   ├── utils/
+
+│   │   └── wavy_progress_painter.dart
+
+│   ├── screens/
+
+│   │   ├── experience_selection_screen.dart
+
+│   │   └── onboarding_question_screen.dart
+
+│   └── widgets/
+
+│       ├── audio_video_recorder.dart
+
+│       ├── next_button.dart
+
+│       ├── description_textfield.dart
+
+│       ├── description_textfield1.dart
+
+│       └── experience_card.dart
+
+│
+
+├── pubspec.yaml
+
+└── android/ & ios/ (default Flutter folders)
